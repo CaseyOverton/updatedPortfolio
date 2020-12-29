@@ -1,0 +1,77 @@
+
+html { 
+    background: url(../public/assets/design1.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 400px;
+  }
+
+* {
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background-color: rgba(188, 143, 143, 0.842);
+    box-shadow: 5px 10px 8px black:
+    
+    padding: 5px;
+    margin-top: 7px;
+  margin-left: 15%;
+  margin-right: 15%;
+  min-height: 300px;
+    
+}
+#header {
+    font-family: 'La Belle Aurore', cursive;
+
+}
+.parent {
+    background-color: coral;
+    margin: 10px;
+    padding: 30px;
+    display: flex;
+    flex-flow: row wrap; /*flex direction and flex wrap */
+}
+.div1 {
+    background-color: crimson;
+    margin: 5px;
+}
+.div2 {
+    background-color: crimson;
+    margin: 5px;
+    width: 150px;
+}
+.div3 {
+    background-color: crimson;
+    margin: 5px;
+    height: 150px;
+}
+.div4 {
+    background-color: crimson;
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+}
+.div5 {
+    background-color: crimson;
+    margin: 5px;
+    width: 200px;
+}
+.div6 {
+    background-color: crimson;
+    margin: 5px;
+    width: 200px;
+}
+
+.bg-dark {
+    background:transparent !important;
+    transition:0.75s ease;
+}
+.bg-dark.scrolled {
+    background:#000 !important;
+}
