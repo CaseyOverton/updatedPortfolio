@@ -18,65 +18,71 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-default bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">Home</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">Pricing</a>
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <a class="nav-link active" aria-current="page" href="#">About Me</a>
+            <a class="nav-link" href="#">Portfolio</a>
+            <a class="nav-link" href="#">Contact</a>
           </div>
         </div>
       </div>
     </nav>
-     <h1 id='header'>My Portfolio</h1><br><hr>
-    <p id="intro"> My name is Casey Overton and I am a full stack web developer. During intensive work with the UNC full flex bootcamp, I have been able to accomplish an expansive understanding of numerous computer languages including HTML, CSS, Javascript and jQuery. I have been working on real world applications using this knowledge. Scroll below to see my work!</p>
-    <h2> Click <a href="https://github.com/CaseyOverton" target="_blank">HERE</a> for github profile.</h2>
+    <div class='parent'>
+     
+      <div class='div1'>
+         <h1 id='header'>My Portfolio</h1><br><hr>
+            <p id="intro"> My name is Casey Overton and I am a full stack web developer with a refined passion for front end. During intensive work with the UNC full flex bootcamp, I have been able to accomplish an expansive understanding of numerous computer languages including HTML, CSS, Javascript, as well as working with databases such as MongoDB and mySQL. I am passionate about being knowledgable on the latest trends such as ES6, and am always looking to learn and grow each day.</p>
+      </div>
 
-    <div id="project1">
-    <p>
-      <h2 id="link1"> The Eating Hour</h2> <img id="img1" src="Assets/Images/group proj .jpg">
-      </p>
+      <div class='div2'> <br><br>     
+<h3>My Wheelhouse</h3><hr>
+<ul>
+  <li>HTML/CSS</li>
+  <li>JQuery</li>
+  <li>Javascript</li>
+  <li>Bootstrap</li>
+  <li>Flexbox/Grid System</li>
+  <li>API retrivel</li>
+ </ul>
+</div>
 
-<br><br><h3> Link to Application: <a href="https://nihalwill.github.io/EatingHour/" target="_blank">Click Here</a> <br>Link to Github Repository: <a href="https://github.com/nihalwill/EatingHour" target="_blank">REPO</a></h3><p id="p1"> Working with a group of developers, we created this application that lets you search various food and drink recipes online. This project was my first time collabortating with a group on gitub. We learned to navigate the merging of different versions of code, which was invaluable. It was also our first time receiving date from an API.</p><br><br><br><br>
-</div>   <br><br><br><br>
-
-<div id="project2">
-  <p>
-    <h2 id="link2">JavaScript Quiz</h2> <img id="img2" src="Assets/Images/quiz1.jpg">
-    </p>
-
-<br><br> <h3>Link to Quiz: <a href="https://caseyoverton.github.io/jsQuiz/" target="_blank">Click Here</a> <br>Link to Github Repository: <a href="https://github.com/CaseyOverton/jsQuiz" target="_blank">REPO</a></h3><br><p id="p2"> This was the first time I worked with a program called Moment.js! I enjoyed learning about that and wrote functions to calculate score and time the quiz. Take the quiz to test your Javascript knowledge! </p><br><br><br><br>
+<br><br><br><br><br><br>
+<div id="div3">
+  <br><br><br>
+  <h2>Employee Regirstration with Node JS</h2>
+  <p>Using Node JS and various npm packages, I created an employee registration app that lets the user register an employee, which then renders an html page. </p><iframe width="500" height="300" src="https://www.youtube.com/embed/cMc4NuPT4Qw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div><br><br><br>
 
-<div id="project3">
-  <p>
-    <h2 id="link3">Day Planner</h2> <img id="img3" src="Assets/Images/scheduler .jpg">
-    </p>
-
-<br><br><h3> Link to planner: <a href="https://caseyoverton.github.io/planner/" target="_blank">Click Here!</a> <br>Link to Github Repository: <a href="https://github.com/CaseyOverton/planner" target="_blank">REPO</a></h3><br> <p id="p3">In this day planner, you can store your daily activites and schedule, which logs itself into local storage! Have plans? Put it in this planner! </p><br><br><br><br>
+<div id="div4"><br><br>
+    <h2>ReadMe Generator</h2> 
+    <p>This application takes user input from the terminal, and renders a readme file.</p>
+    <iframe width="500" height="300" src="https://www.youtube.com/embed/wv5M8giJVPs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>    
-
-    <div class='parent'>
-        <div class='div1'>div1</div>
-        <div class='div2'>w=150px</div>
-        <div class='div3'>h=150px</div>
-        <div class='div4'>w/h=150px</div>
-        <div class='div5'>w=200px</div>
-        <div class='div6'>w=200px</div>
-    </div>
+</div>
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-    <script>document.write(document.lastModified);
+    <script>
 
 
  $(window).scroll(function(){
  $('nav').toggleClass('scrolled', $(this).scrollTop() > 1080);
  });
 
+ $("#slideshow > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('#slideshow > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow');
+},  3000);
+document.write(document.lastModified);
     
     </script>
   </body>
