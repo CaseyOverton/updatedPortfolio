@@ -46,6 +46,11 @@ body {
     display: flex;
     flex-flow: row wrap; /*flex direction and flex wrap */
 }
+img {
+    width: 300px;
+    height: 200px;
+    box-shadow: 5px 10px 18px black;
+}
 .div1 {
   
 }
@@ -55,11 +60,11 @@ body {
   
 }
 .div3 {
-   
+    margin-left: 20%
 }
 #div4 {
 text-align: center;
-/* margin-left: 30%; */
+margin-left: 20%;
 margin: auto;
 }
 .div5 {
