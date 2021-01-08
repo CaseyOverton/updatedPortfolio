@@ -116,3 +116,10 @@ iframe {
     right: 10px; 
     bottom: 10px; 
 }
+#resumeImg {
+    width: 800px;
+    height: 1000px;
+}
+#cursive {
+    font-family: 'La Belle Aurore', cursive;
+}
